@@ -68,6 +68,6 @@ python model_inference.py --rgb dataset/images_validation --modelpath model/mode
 ```
 
 ## Resultados
-![Resultado](results/01.jpg)
-![Resultado](results/03.jpg)
+![Resultado](results/1.jpg)
+![Resultado](results/3.jpg)
 
