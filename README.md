@@ -4,26 +4,6 @@ Este projeto realiza a segmentação de imagens aéreas (ortomosaicos) para dete
 
 ## Estrutura do Projeto
 
-```
-Desafio-IA/
-│
-├── dataset/
-│   ├── crops/                # Blocos do ortomosaico
-│   ├── masks/                # Máscaras binarizadas
-│   └── images_validation/    # Imagens para validação/inferência
-│
-├── model/
-│   └── model.h5              # Modelo treinado
-│
-├── results/                  # Resultados da inferência
-│
-├── divide_orthomosaic.py     # Etapa 1
-├── binarize_images.py        # Etapa 2
-├── train_model.py            # Etapa 3
-├── model_inference.py        # Etapa 4
-└── README.md
-```
-
 ## Requisitos
 
 Instale as dependências necessárias:
@@ -69,5 +49,9 @@ python model_inference.py --rgb dataset/images_validation --modelpath model/mode
 
 ## Resultados
 ![Resultado](results/1.jpg)
+![Resultado](results/2.jpg)
 ![Resultado](results/3.jpg)
-
+![Resultado](results/4.jpg)
+![Resultado](results/5.jpg)
+![Resultado](results/6.jpg)
+![Resultado](results/7.jpg)
